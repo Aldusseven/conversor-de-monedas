@@ -2,7 +2,7 @@
 
 <h2>Este proyecto desarrolla una app con Java para convertir divisas por medio de una API</h2>
 
-<h3>*Explicación Detallada del Código*</h3>
+<h3>Explicación Detallada del Código</h3>
 
 <h4>I. Propósito Principal</h4>
 El código Java proporcionado tiene como objetivo principal facilitar la obtención de tasas de cambio de divisas en tiempo real utilizando una API externa. Específicamente, la clase ConsultarConversion se encarga de realizar una solicitud a una API de tasas de cambio (en este caso, https://vb.exchangerate-api.com) para obtener la tasa de conversión entre dos monedas dadas.
