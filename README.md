@@ -9,11 +9,17 @@ El código Java proporcionado tiene como objetivo principal facilitar la obtenci
 
 <h4>II. Funcionamiento General</h4>
 
+![image](https://github.com/user-attachments/assets/d8c25eb1-5259-48a6-9854-132697909b08)
+
+![image](https://github.com/user-attachments/assets/54e336e4-a547-4195-81dd-f8c5978e1d08)
+
 <h5>a. Creación de la Solicitud:</h5>
 
 1. Se construye una URL específica para la API, incluyendo los códigos de las divisas de entrada y salida.
 2. Se crea un cliente HTTP para realizar la solicitud a la API.
 3. Se configura la solicitud HTTP con la URL y otros parámetros necesarios.
+
+![image](https://github.com/user-attachments/assets/eb9893a8-0772-4070-8a82-ad24a5c495ca)
 
 <h5>b. Envío de la Solicitud y Procesamiento de la Respuesta:</h5>
 
@@ -21,9 +27,13 @@ El código Java proporcionado tiene como objetivo principal facilitar la obtenci
 2. La librería Gson se utiliza para convertir el JSON de la respuesta en un objeto de la clase Divisas.
 3. Este objeto Divisas contiene la información relevante sobre el tipo de cambio, como la tasa de conversión entre las dos monedas.
 
+![image](https://github.com/user-attachments/assets/aa66f249-58a5-46cc-9f4c-3006e74ca6b3)
+
 <h5>c. Manejo de Errores:</h5>
 
 Si ocurre algún error durante el proceso de solicitud o conversión, se lanza una excepción personalizada indicando que no se pudo encontrar la moneda.
+
+![image](https://github.com/user-attachments/assets/9b8a3583-3fae-4d48-8dd4-b721dfdf03de)
 
 <h5>d. Estructura del Código</h5>
 
