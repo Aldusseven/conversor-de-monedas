@@ -15,7 +15,7 @@ El código Java proporcionado tiene como objetivo principal facilitar la obtenci
 2. Se crea un cliente HTTP para realizar la solicitud a la API.
 3. Se configura la solicitud HTTP con la URL y otros parámetros necesarios.
 
-<h5>.b. Envío de la Solicitud y Procesamiento de la Respuesta:</h5>
+<h5>b. Envío de la Solicitud y Procesamiento de la Respuesta:</h5>
 
 1. Se envía la solicitud a la API y se recibe la respuesta en formato JSON.
 2. La librería Gson se utiliza para convertir el JSON de la respuesta en un objeto de la clase Divisas.
